@@ -15,4 +15,8 @@ Official government portals often remove previous versions of procurement rules 
 
 ## Deployment
 
-The site is built as a pure static web page (HTML/CSS/JS) with no build steps required. It is designed to be highly portable and can be hosted on any static hosting provider, such as Infinity Free or GitHub Pages.
+The site is built as a pure static web page (HTML/CSS/JS) with no build steps required. It is designed to be highly portable and can be hosted on any static hosting provider, such as InfinityFree or GitHub Pages.
+
+### GitHub Pages
+
+Deploys to [GitHub Pages](https://chandler-heath.github.io/nz-procurement-guidance-archive/) using GitHub Actions. The workflow is defined in the `.github/workflows/static.yml` file.
