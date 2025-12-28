@@ -9,3 +9,4 @@
 - **External Asset Icons**: Prefer external SVG files in the `assets/` directory rather than inlining them in HTML.
 - **Theme Consistency**: All new UI components must respect the light/dark mode system using CSS variables defined in `style.css`.
 - **Global Layout Consistency**: Maintain identical mastheads and footers across all pages (`index.html`, `about.html`, `contact.html`).
+- **Asset Preloading/Prefetching**: All new assets (images, SVGs, scripts, etc.) MUST be added to the `<head>` of ALL HTML files as either `preload` (for critical, immediately visible assets) or `prefetch` (for secondary assets) to ensure optimal performance.
