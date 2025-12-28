@@ -26,14 +26,12 @@
 
     function getPreferredTheme() {
         const storedTheme = getCookie(COOKIE_NAME);
-        console.log('[Theme] Stored cookie:', storedTheme);
 
         if (storedTheme === THEME_DARK || storedTheme === THEME_LIGHT) {
             return storedTheme;
         }
 
         const isSystemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        console.log('[Theme] System prefers dark:', isSystemDark);
 
         return isSystemDark ? THEME_DARK : THEME_LIGHT;
     }
