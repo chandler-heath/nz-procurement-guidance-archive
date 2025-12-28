@@ -130,7 +130,8 @@ a:hover {
 .masthead nav ul {
     list-style: none;
     display: flex;
-    gap: 32px;
+    gap: 16px;
+    margin: 0 -8px;
 }
 
 .masthead nav a {
@@ -141,6 +142,7 @@ a:hover {
     text-decoration: none;
     transition: color 0.3s ease;
     opacity: 1;
+    padding: 8px;
 }
 
 .masthead nav a:hover,
@@ -162,15 +164,19 @@ a:hover {
 }
 
 @media (max-width: 700px) {
+    .masthead {
+        padding: 32px 0;
+    }
+
     .masthead .container {
         flex-direction: column;
         text-align: center;
-        gap: 24px;
+        gap: 20px;
     }
 
     .masthead nav ul {
         justify-content: center;
-        gap: 28px;
+        gap: 12px;
     }
 
     .masthead nav a {
