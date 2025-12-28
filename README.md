@@ -4,6 +4,8 @@ A static repository designed to preserve historical New Zealand government procu
 
 Official government portals often remove previous versions of procurement rules and guidance once they are updated. This project aims to bridge that gap by providing a central location for historical procurement frameworks, ensuring continuity and context for those researching the evolution of New Zealand's procurement landscape.
 
+[View the live site](https://chandler-heath.github.io/nz-procurement-guidance-archive/)
+
 ## Features
 
 -   **Document Categorization**: Organized into logical sections such as Government Procurement Rules, Charter, planning guidance, and supplier resources.
