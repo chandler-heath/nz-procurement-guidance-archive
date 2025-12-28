@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>About | New Zealand Procurement Guidance Archive</title>
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="container">
+            <h1>New Zealand Procurement Guidance</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Archive</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- About Section -->
+        <section class="about-section">
+            <h2>
+                <img src="assets/icon-info.svg" alt="" width="20" height="20">
+                About This Archive
+            </h2>
+            <p>This site preserves historical versions of New Zealand government procurement guidance documents that are
+                no longer available through official channels. These archived materials serve as a resource for
+                researchers, academics, and procurement professionals requiring access to previous versions of
+                procurement frameworks.</p>
+            <p>Current versions of all documents link directly to their authoritative sources on government websites.
+                Historical versions are provided as downloadable PDF files.</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="copyright">
+            © <span id="current-year"></span> New Zealand Procurement Guidance Repository. For research and
+            archival purposes.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
