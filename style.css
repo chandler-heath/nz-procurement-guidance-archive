@@ -104,7 +104,7 @@ a:hover {
 .masthead {
     width: 100%;
     background-color: var(--color-bg-offset);
-    padding: 44px 0;
+    padding: 40px 0;
     border-bottom: 1px solid var(--color-border-light);
 }
 
@@ -115,6 +115,16 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
+
+.masthead .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.masthead .logo h1 {
+    max-width: 300px;
 }
 
 .masthead nav ul {
@@ -142,7 +152,16 @@ a:hover {
     font-weight: 600;
 }
 
-@media (max-width: 768px) {
+.masthead .logo-link {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.masthead .logo-link:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
     .masthead .container {
         flex-direction: column;
         text-align: center;
@@ -156,6 +175,30 @@ a:hover {
 
     .masthead nav a {
         font-size: 16px;
+    }
+
+    .masthead .logo h1 {
+        max-width: none;
+    }
+}
+
+@media (max-width: 568px) {
+
+    .masthead .logo h1 {
+        max-width: 300px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .masthead .logo h1 {
+        max-width: none;
+        text-align: center;
+    }
+
+    .masthead .logo-icon {
+        display: none;
     }
 }
 
