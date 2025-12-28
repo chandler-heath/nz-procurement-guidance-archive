@@ -52,7 +52,7 @@
 
     // Initialize theme immediately to prevent FOUC (if script is in <head>)
     const initialTheme = getPreferredTheme();
-    document.documentElement.setAttribute('data-theme', initialTheme);
+    applyTheme(initialTheme);
 
     // Set up toggle button and current year once DOM is loaded
     document.addEventListener('DOMContentLoaded', () => {
