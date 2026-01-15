@@ -10,7 +10,7 @@
 
     /* Icons */
     --icon-external: url('assets/icon-external.svg');
-    --icon-pdf: url('assets/icon-pdf.svg');
+    --icon-file: url('assets/icon-file.svg');
 
     /* Light Mode Palette */
     --color-bg: #FFFEFC;
@@ -406,8 +406,8 @@ a:hover {
 
 /* Archive Link Icon (PDF) */
 .document-link[href$=".pdf"]::after {
-    -webkit-mask-image: var(--icon-pdf);
-    mask-image: var(--icon-pdf);
+    -webkit-mask-image: var(--icon-file);
+    mask-image: var(--icon-file);
 }
 
 /* Contact */
