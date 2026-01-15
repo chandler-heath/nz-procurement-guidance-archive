@@ -362,6 +362,7 @@ a:hover {
 
 .document-link {
     grid-column: 2;
+    justify-self: start;
     font-family: var(--font-sans);
     font-weight: 400;
     font-size: 14px;
@@ -413,8 +414,7 @@ a:hover {
 /* Contact */
 
 .email-link {
-    display: block;
-    margin-bottom: 32px;
+    display: inline-block;
     color: var(--color-text);
     font-weight: 500;
 }
