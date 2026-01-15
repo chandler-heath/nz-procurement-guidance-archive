@@ -10,11 +10,12 @@
 
     /* Icons */
     --icon-external: url('assets/icon-external.svg');
-    --icon-archive: url('assets/icon-archive.svg');
+    --icon-pdf: url('assets/icon-pdf.svg');
 
     /* Light Mode Palette */
     --color-bg: #FFFEFC;
     --color-bg-offset: #FDFAF5;
+    --color-bg-offset-badge: #FCF1DF;
     --color-bg-invert: #0A0A0A;
     --color-text: #0A0A0A;
     --color-text-secondary: #636374;
@@ -28,9 +29,10 @@
     /* Dark Mode Palette */
     --color-bg: #121212;
     --color-bg-offset: #1A1A1A;
+    --color-bg-offset-badge: #2D2D2D;
     --color-bg-invert: #FFFFFF;
     --color-text: #E0E0E0;
-    --color-text-secondary: #A0A0B0;
+    --color-text-secondary: #A8A29E;
     --color-text-invert: #121212;
     --color-border: #E0E0E0;
     --color-border-light: #2D2D2D;
@@ -322,7 +324,7 @@ a:hover {
 }
 
 .archive-badge {
-    background-color: var(--color-bg-offset);
+    background-color: var(--color-bg-offset-badge);
     color: var(--color-text);
 }
 
@@ -381,7 +383,7 @@ a:hover {
     display: inline-block;
     width: 14px;
     height: 14px;
-    margin-left: 6px;
+    margin: 0 0 2px 8px;
     background-color: currentColor;
     -webkit-mask-size: contain;
     mask-size: contain;
@@ -404,8 +406,8 @@ a:hover {
 
 /* Archive Link Icon (PDF) */
 .document-link[href$=".pdf"]::after {
-    -webkit-mask-image: var(--icon-archive);
-    mask-image: var(--icon-archive);
+    -webkit-mask-image: var(--icon-pdf);
+    mask-image: var(--icon-pdf);
 }
 
 /* Contact */
