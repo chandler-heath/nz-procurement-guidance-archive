@@ -1,9 +1,9 @@
 # AI Rules
 
 ## HTML Formatting
-- **Absolute Single-line Paragraphs**: The text content inside every `<p>` tag MUST be on a single, continuous line.
-- **Zero Newlines/Tabs in Tags**: Do not inject ANY newlines (`\n`) or tab characters (`\t`) inside a `<p>` tag. The closing `</p>` must be on the same physical line as the opening `<p>`.
-- **Formatting Violation**: Any attempt to wrap text or add internal indentation within a paragraph is a direct violation of project standards. No exceptions.
+- **Absolute Single-line Paragraphs**: The text content inside every `<p>`, `<a>`, `<div>` and `<span>` tag MUST be on a single, continuous line.
+- **Zero Newlines/Tabs in Tags**: Do not inject ANY newlines (`\n`) or tab characters (`\t`) inside a `<p>`, `<a>`, `<div>` or `<span>` tag. The closing `</p>`, `</a>`, `</div>` or `</span>` must be on the same physical line as the opening tag.
+- **Formatting Violation**: Any attempt to wrap text or add internal indentation within a tag is a direct violation of project standards. No exceptions.
 
 ## Technical Constraints & Standards
 - **Strict Vanilla Stack**: Use only vanilla HTML, CSS, and JS. Do not introduce external libraries (React, Tailwind, jQuery, etc.) or build tools.
