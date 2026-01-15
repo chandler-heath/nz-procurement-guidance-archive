@@ -8,14 +8,14 @@ Official government portals often remove previous versions of procurement rules 
 
 ## Features
 
--   **Document Categorization**: Organized into logical sections such as Government Procurement Rules, Charter, planning guidance, and supplier resources.
+-   **Document Categorization**: Organized into sections: `Government Procurement Rules`, `Procurement Good Practice`, `Conflict of Interest Management Good Practice`
 -   **Version Tracking**: Clearly distinguishes between "Current" authoritative versions and "Archive" historical documents.
 -   **Dark Mode**: Supports light and dark themes with system preference detection and persistent storage via cookies.
 
 ## Project Structure
 
 -   `index.html`: The main archive page containing document links and categories.
--   `about.html`: Detailed information about the purpose and scope of the archive.
+-   `about.html`: Information regarding the archive's purpose and scope.
 -   `contact.html`: Contact link and feedback details.
 -   `style.css`: Central stylesheet containing design tokens, theme variables, and layout definitions.
 -   `theme.js`: JavaScript utility for theme switching, cookie management, and year auto-update.
