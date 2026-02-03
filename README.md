@@ -20,6 +20,7 @@ Official government portals often remove previous versions of procurement rules 
 -   `style.css`: Central stylesheet containing design tokens, theme variables, and layout definitions.
 -   `theme.js`: JavaScript utility for theme switching, cookie management, and year auto-update.
 -   `assets/`: Directory containing optimized SVG assets, logos, and favicons.
+-   `PDFs/`: Directory containing locally-hosted PDF documents.
 
 ## Deployment
 
