@@ -22,6 +22,18 @@ Official government portals often remove previous versions of procurement rules 
 -   `assets/`: Directory containing optimized SVG assets, logos, and favicons.
 -   `PDFs/`: Directory containing locally-hosted PDF documents.
 
+## Local Development
+
+To preview the site locally during development, run the start script:
+
+```bash
+./start-server.sh
+```
+
+This will start a local server on `http://localhost:3000`.
+
+Press `Ctrl+C` to stop the server when you're done.
+
 ## Deployment
 
 The site is built as a pure static web page (HTML/CSS/JS) with no build steps required. It is designed to be highly portable and can be hosted on any static hosting provider.
