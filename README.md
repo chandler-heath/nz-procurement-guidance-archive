@@ -24,15 +24,13 @@ Official government portals often remove previous versions of procurement rules 
 
 ## Local Development
 
-To preview the site locally during development, run the start script:
+From the repository root:
 
 ```bash
 ./start-server.sh
 ```
 
-This will start a local server on `http://localhost:3000`.
-
-Press `Ctrl+C` to stop the server when you're done.
+Then open **http://localhost:3000** (Python 3 required). Use **Ctrl+C** to stop the server.
 
 ## Deployment
 
